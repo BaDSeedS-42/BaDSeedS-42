@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Inserisci cliclista</title>
+    </head>
+
+    <body>
+        <form method="get" action="/risultatatoInserisciPosizione">
+
+            <table>
+                <tr>
+                    <td> 
+                        Codice Ciclista: 
+                    </td>
+                    <td>
+                        <select name="CodC">
+                            {% for i in ciclisti %}
+                            <option value="{{ i['CodC'] }}">{{ i['CodC'] }}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> 
+                        Codice Tappa: 
+                    </td>
+                    <td>
+                        <select name="CodT">
+                            {% for i in tappe %}
+                            <option value="{{ i['CodT'] }}">{{ i['CodT'] }}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> 
+                        Edizione: 
+                    </td>
+                    <td>
+                        <select name="Edizione">
+                            {% for i in edizioni %}
+                            <option value="{{ i['Edizione'] }}">{{ i['Edizione'] }}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td> 
+                        Posizione Ciclista: 
+                    </td>
+                    <td> 
+                        <input type="text" size="4" maxlength="3" name="Posizione"> 
+                    </td>
+                </tr>
+
+            </table>
+
+            <p>
+                <input type="submit" value="Inserisci">
+        </form>
+    </body>
+</html>
