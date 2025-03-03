@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab7/Es03/graph.c
+graph.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab7/Es03/graph.h
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab7/Es03/graph.h
+stdio.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab7/Es03/stdio.h
+stdlib.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab7/Es03/stdlib.h
+string.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab7/Es03/string.h
+st.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab7/Es03/st.h
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab7/Es03/st.h
+stdio.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab7/Es03/stdio.h
+stdlib.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab7/Es03/stdlib.h
+string.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab7/Es03/string.h
+

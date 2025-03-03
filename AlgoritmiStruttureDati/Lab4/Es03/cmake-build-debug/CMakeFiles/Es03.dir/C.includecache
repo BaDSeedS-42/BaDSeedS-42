@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab4/Es03/main.c
+stdio.h
+-
+stdlib.h
+-
+

@@ -1,0 +1,10 @@
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" "D:\INFORMATICA 2020-21\Algoritmi e Strutture Dati\Programmazione\Laboratori\Lab4\Es01"
+-- The C compiler identification is MSVC 19.11.25547.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.11.25503/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab4/Es01/cmake-build-debug

@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Posizione ciclista in tappa</title>
+    </head>
+
+    <body>
+        <form method="get" action="/risultatoPosizioneCiclistaInTappa">
+        <table>
+            <tr>
+                <td>Codice ciclista: </td>
+                <td>
+                    <select name="CodC">
+                        {% for elemento in ciclisti %}
+                            <option value="{{ elemento['CodC'] }}"> {{ elemento['CodC'] }} - {{ elemento['Nome'] }} {{ elemento['Cognome'] }}</option>
+                        {% endfor %}
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Codice tappa: </td>
+                <td><input type="number" min="1" max="999" name="CodT"></td>
+            </tr>
+        </table> 
+            <input type="submit" value="Invia">
+    </form>
+    </body>
+</html>

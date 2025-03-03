@@ -1,0 +1,27 @@
+C:\WINDOWS\system32\wsl.exe --distribution Ubuntu-22.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd '/mnt/c/Users/lucaf/Desktop/POLITECNICO/Secondo anno/APA/Laboratori/Lab1/cmake-build-debug-wsl' && /usr/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug '-DCMAKE_C_FLAGS_DEBUG=-fsanitize=address -g -fsanitize-recover=address -fsanitize-address-use-after-scope' -G 'CodeBlocks - Unix Makefiles' -S '/mnt/c/Users/lucaf/Desktop/POLITECNICO/Secondo anno/APA/Laboratori/Lab1' -B '/mnt/c/Users/lucaf/Desktop/POLITECNICO/Secondo anno/APA/Laboratori/Lab1/cmake-build-debug-wsl'"
+CMake Error at /usr/bin/cmake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:217 (configure_file):
+  Operation not permitted
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- The C compiler identification is GNU 11.4.0
+CMake Error at /usr/bin/cmake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:226 (configure_file):
+  Operation not permitted
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - works
+-- Detecting C compile features
+-- Detecting C compile features - done
+CMake Error at /usr/bin/cmake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:80 (configure_file):
+  Operation not permitted
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!

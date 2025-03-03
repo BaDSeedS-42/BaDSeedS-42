@@ -1,0 +1,26 @@
+<html lang="it">
+<head>    
+    <title>Opere - Risultato della ricerca 🔍</title>
+</head>
+
+<body>
+    <h1>Opere a {{ citta }} degli autori nati tra il {{ annoDa }} e il {{ annoA }}</h1>
+    <table>
+        <tr>
+            {% for field in header %}
+            <td >{{ field }}</td>
+            {% endfor %}
+        </tr>
+        {% for opera in values %}
+            <tr>
+            <td >{{ opera["cognome"] }}</td>
+            <td >{{ opera["nome"] }}</td>
+            <td >{{ opera["categoria"] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+
+</html>
+
+

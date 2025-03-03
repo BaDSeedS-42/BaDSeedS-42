@@ -1,0 +1,35 @@
+<html lang="it">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Opere - Ricerca 🔍</title>
+</head>
+
+<body>
+    <h4>Impostare anno di nascita dell'autore e città interessata</h4>
+    <form method="get" action="/opere">
+        <table>
+            <tr>
+                <td><label for="annoDa">Data di nascita dal</label></td>
+                <td><input type="number" min="1" max="9999" id="annoDa" name="annoDa"></td>
+                <td><label for="annoA">al</label></td>
+                <td><input type="number" min="1" max="9999" id="annoA" name="annoA"></td>
+            </tr>
+            <tr>
+                <td><label for="città">Città</label></td>
+                <td>
+                    <select title="Città" id="città" name="citta">
+                        {% for row in rows %}
+                            <option value="{{ row['citta'] }}">{{ row['citta'] }}</option>
+                        {% endfor %}
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="reset" value="Cancella">
+        <input type="submit" value="Invia">
+    </form>
+</body>
+
+</html>

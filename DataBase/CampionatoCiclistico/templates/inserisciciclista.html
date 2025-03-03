@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Inserisci cliclista</title>
+</head>
+
+<body>
+    <form method="get" action="/risultatatoInserisciCiclista">
+
+        <table>
+
+
+            <tr>
+                <td>
+                    Codice Ciclista:
+                </td>
+                <td> 
+                    <input type="text" size="50" maxlength="50" name="CodC"> 
+                </td>
+            </tr>
+            
+            <tr>
+                <td> 
+                    Nome Ciclista: 
+                </td>
+                <td> 
+                    <input type="text" size="50" maxlength="50" name="Nome"> 
+                </td>
+            </tr>
+
+            <tr>
+                <td> 
+                    Cognome Ciclista: 
+                </td>
+                <td> 
+                    <input type="text" size="50" maxlength="50" name="Cognome"> 
+                </td>
+            </tr>
+
+            <tr>
+                <td> 
+                    Nazionalità Ciclista: 
+                </td>
+                <td> 
+                    <input type="text" size="50" maxlength="50" name="Nazionalita"> 
+                </td>
+            </tr>
+
+            <tr>
+                <td> 
+                    Codice Squadra: 
+                </td>
+                <td>
+                    <select name="CodS">
+                        {% for i in squadre %}
+                        <option value="{{ i['CodS'] }}">{{ i['CodS'] }}</option>
+                        {% endfor %}
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td> 
+                    Anno di Nascita Ciclista: 
+                </td>
+                <td> 
+                    <input type="text" size="4" maxlength="4" name="AnnoNascita"> 
+                </td>
+            </tr>
+
+        </table>
+
+        <p>
+            <input type="submit" value="Inserisci">
+    </form>
+</body>
+
+</html>

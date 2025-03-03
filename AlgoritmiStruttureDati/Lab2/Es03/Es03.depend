@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1635340114 source:d:\informatica 2020-21\algoritmi e strutture dati\programmazione\laboratori\lab2\es03\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

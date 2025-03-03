@@ -1,0 +1,4 @@
+Partenza Destinazione Costo
+ Parigi New York 10$90$2
+ Roma Londra 70$1
+ Sidney Los Angeles 2$3

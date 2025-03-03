@@ -1,0 +1,4 @@
+C:\WINDOWS\system32\wsl.exe --distribution Ubuntu-22.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd '/mnt/c/Users/lucaf/Desktop/POLITECNICO/Secondo anno/APA/Laboratori/Lab1/Es03/cmake-build-debug-wsl' && /usr/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug '-DCMAKE_C_FLAGS_DEBUG=-fsanitize=address -g -fsanitize-recover=address -fsanitize-address-use-after-scope' -G 'CodeBlocks - Unix Makefiles' -S '/mnt/c/Users/lucaf/Desktop/POLITECNICO/Secondo anno/APA/Laboratori/Lab1/Es03' -B '/mnt/c/Users/lucaf/Desktop/POLITECNICO/Secondo anno/APA/Laboratori/Lab1/Es03/cmake-build-debug-wsl'"
+-- Configuring done (0.2s)
+-- Generating done (0.3s)
+-- Build files have been written to: /mnt/c/Users/lucaf/Desktop/POLITECNICO/Secondo anno/APA/Laboratori/Lab1/Es03/cmake-build-debug-wsl

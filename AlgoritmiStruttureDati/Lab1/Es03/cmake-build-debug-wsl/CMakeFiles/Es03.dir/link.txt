@@ -1,0 +1,1 @@
+/usr/bin/cc -fsanitize=address -g -fsanitize-recover=address -fsanitize-address-use-after-scope CMakeFiles/Es03.dir/main.c.o -o Es03 

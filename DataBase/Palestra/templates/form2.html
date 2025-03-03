@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Programmazione</title>
+</head>
+
+<body>
+<h3> Inserimento nuova programmazione/lezione </h3>
+<form method="get" action="inserisciProgrammazione">
+
+Programmazione della nuova lezione settimanale
+<br>
+
+<table>
+
+
+<tr> <td> Istruttore: </td>
+
+<td>
+
+<select name="codfisc">
+    {% for istruttore in istruttori %}
+        <option value="{{ istruttore['CodFisc'] }}">{{ istruttore['Cognome'] }} {{ istruttore['Cognome'] }} ({{istruttore['CodFisc']}})</option>
+    {% endfor %}
+
+</select> 
+</td> 
+</tr>
+
+
+<tr> <td> Giorno:  </td>  <td>  <input type="text" size="10" maxlength="10" name="giorno">   </td> </tr>
+<tr> <td> Ora inizio:  </td>  <td> <input type="text" size="10" maxlength="10" name="orainizio">   </td>   </tr>
+<tr> <td> Durata:  </td>  <td>  <input type="text" size="10" maxlength="10" name="durata">   </td> </tr>
+<tr> <td> Corso: </td>
+
+<td>
+
+<select name="codc">
+    {% for corso in corsi %}
+        <option value="{{ corso['CodC'] }}">{{ corso['Nome'] }} ({{ corso['CodC'] }})</option>
+    {% endfor %}
+</select> 
+</td> 
+</tr>
+
+
+<tr> <td> Sala:  </td>  <td>  <input type="text" size="2" maxlength="2" name="sala">   </td> </tr>
+
+</table>
+
+
+
+<p>
+<input type="submit" value="Inserisci">
+
+</form>
+</body>
+</html>
+
+

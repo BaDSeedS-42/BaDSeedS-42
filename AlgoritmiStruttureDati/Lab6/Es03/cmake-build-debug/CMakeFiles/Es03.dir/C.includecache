@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab6/Es03/equipArray.c
+equipArray.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab6/Es03/equipArray.h
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab6/Es03/equipArray.h
+invArray.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab6/Es03/invArray.h
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab6/Es03/invArray.h
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+inventario.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab6/Es03/inventario.h
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab6/Es03/inventario.h
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+

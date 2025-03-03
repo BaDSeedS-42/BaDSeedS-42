@@ -1,0 +1,48 @@
+{%
+    set palette_colori = ({
+        "architettura": "#ffa7bc",
+        "pittura": "#b1f094",
+        "scultura": "#fffaa2"
+    })
+%}
+<html lang="it">
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid #dddddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #adadad;
+        }
+    </style>
+    
+    <title>Opere - Risultato della ricerca 🔍</title>
+</head>
+
+<body>
+    <h1>Opere a {{ citta }} degli autori nati tra il {{ annoDa }} e il {{ annoA }}</h1>
+    <table>
+        <tr>
+            {% for field in header %}
+            <td >{{ field }}</td>
+            {% endfor %}
+        </tr>
+        {% for opera in values %}
+            <tr bgcolor={{ opera["categoria"] }}>
+            <td >{{ opera["cognome"] }}</td>
+            <td >{{ opera["nome"] }}</td>
+            <td >{{ opera["categoria"] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+
+</html>
+
+

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/BST.h
+quotazione.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/quotazione.h
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/data.h
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/listaTitoli.h
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/main.c
+stdio.h
+-
+titolo.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/titolo.h
+listaTitoli.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/listaTitoli.h
+BST.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/BST.h
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/quotazione.h
+data.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/data.h
+
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/titolo.h
+stdlib.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/stdlib.h
+stdio.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/stdio.h
+string.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/string.h
+BST.h
+D:/INFORMATICA 2020-21/Algoritmi e Strutture Dati/Programmazione/Laboratori/Lab8/Es01/BST.h
+

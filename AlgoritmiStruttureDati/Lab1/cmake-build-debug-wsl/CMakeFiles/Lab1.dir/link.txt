@@ -1,0 +1,1 @@
+/usr/bin/cc -fsanitize=address -g -fsanitize-recover=address -fsanitize-address-use-after-scope CMakeFiles/Lab1.dir/Es01/main.c.o CMakeFiles/Lab1.dir/Es03/main.c.o CMakeFiles/Lab1.dir/Es04/main.c.o -o Lab1 
