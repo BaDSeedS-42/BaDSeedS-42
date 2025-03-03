@@ -4,8 +4,7 @@ Repository con appunti, esercizi e progetti del mio percorso in **Ingegneria Inf
 
 ## 📂 Contenuto
 - **📖 Appunti** – Riassunti di corsi, schemi e formule utili.  
-- **💻 Codice** – Esercizi, progetti e script per vari corsi.  
-- **📊 Materiale di supporto** – Tavole di disegno tecnico, schemi, dispense e risorse utili.  
+- **💻 Codice** – Esercizi, progetti e script per vari corsi.
 
 ## 🎯 Obiettivo
 Organizzare e condividere materiale utile per lo studio, sia per me che per chi segue un percorso simile.
