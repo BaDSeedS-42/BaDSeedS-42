@@ -9,7 +9,7 @@ Benvenuto nel mio repository principale! 🚀 Qui trovi un mix di materiale acca
   - Codice sorgente per algoritmi, simulazioni e approfondimenti.
   
 - **💻 Personal Projects**
-  - 🔹 [**Piattaforma Scientifica**](#Brainframe) - Un progetto per la divulgazione scientifica in stile YouTube.
+  - 🔹 [**Brainframe**](#Brainframe) - Un progetto per la divulgazione scientifica in stile YouTube.
   - 🔹 [**Work_shifts_proj**](#Work_shifts_proj) - Programma in C per l'assegnazione automatica dei turni.
   - 🔹 [**Gold_proj**](#progetto-oro) - Algoritmi per l'analisi degli investimenti in oro.
   - 🔹 Altri esperimenti, tool e codice sperimentale.
