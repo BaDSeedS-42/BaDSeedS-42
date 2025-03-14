@@ -9,9 +9,9 @@ Benvenuto nel mio repository principale! 🚀 Qui trovi un mix di materiale acca
   - Codice sorgente per algoritmi, simulazioni e approfondimenti.
   
 - **💻 Personal Projects**
-  - 🔹 [**Brainframe**](#Brainframe) - Un progetto per la divulgazione scientifica in stile YouTube.
-  - 🔹 [**Work_shifts_proj**](#https://github.com/BaDSeedS-42/BaDSeedS-42/tree/main/Personal_projects/Work_shifts_proj) - Programma in C per l'assegnazione automatica dei turni.
-  - 🔹 [**Gold_proj**](#https://github.com/BaDSeedS-42/BaDSeedS-42/tree/main/Personal_projects/gold_proj) - Algoritmi per l'analisi degli investimenti in oro.
+  - 🔹 [**Brainframe**](Brainframe) - Un progetto per la divulgazione scientifica in stile YouTube.
+  - 🔹 [**Work_shifts_proj**](https://github.com/BaDSeedS-42/BaDSeedS-42/tree/main/Personal_projects/Work_shifts_proj) - Programma in C per l'assegnazione automatica dei turni.
+  - 🔹 [**Gold_proj**](https://github.com/BaDSeedS-42/BaDSeedS-42/tree/main/Personal_projects/gold_proj) - Algoritmi per l'analisi degli investimenti in oro.
   - 🔹 Altri esperimenti, tool e codice sperimentale.
 
 ## 🔬 Brainframe
